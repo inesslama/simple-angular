@@ -1,0 +1,46 @@
+
+
+<div class="parent">
+  <header class="showcase">
+    <div class="showcase-content">
+      <div class="showcase-top">
+        <h1 style="margin-left: 30px;">Send A Message</h1>
+        <br>
+      </div>
+      <div class="formm">
+        <form>
+         
+          <div class="info">
+            <textarea class="email" type="email" name="message" style="height: 200PX;"  [(ngModel)]="messageObj.message">
+            </textarea>
+          </div>
+          <div class="btn">
+            <button class="btn-primary" (click)="onclick()" >submit</button>
+          </div>
+          
+        </form>
+      </div>
+    </div>
+  </header>
+
+</div>
+
+
+
+
+
+
+<!-- <div class="container card message-container ">
+    <h1 class="message-title">Send A Message</h1>
+  
+    <form action="mailto:email@email.com" method="post" enctype="text/plain">
+
+      <label for="message" class="message">Message</label>
+      <textarea name="message" cols="30" rows="7" required maxlength="500"></textarea>
+
+      <p class="button-container">
+        <input class="button" type="submit" value="Submit">
+      </p>
+    </form>
+  </div>
+ -->
